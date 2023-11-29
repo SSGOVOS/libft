@@ -6,7 +6,7 @@
 /*   By: amoubine <amoubine@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/04 17:40:45 by amoubine          #+#    #+#             */
-/*   Updated: 2023/11/29 00:48:57 by amoubine         ###   ########.fr       */
+/*   Updated: 2023/11/29 01:03:54 by amoubine         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,8 +28,3 @@ char	*ft_strrchr(const char *s, int c)
 	return (0);
 }
 
-int main()	{
-	char *s = "hello";
-	char *t = ft_strrchr(s, 'o');
-	printf("%s\n", t);
-}
